@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile Bottom Bar</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <!-- Bottom Navigation Bar -->
+    <div class="fixed inset-x-0 bottom-0 bg-white shadow-md w-full">
+      <div class="flex justify-around">
+        <button
+          class="flex-grow flex flex-col items-center py-2 px-4 text-gray-600 hover:text-blue-500 focus:text-blue-500"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 mb-1"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 4a1 1 0 011-1h16a1 1 0 011 1v16a1 1 0 01-1 1H4a1 1 0 01-1-1V4z"
+            />
+          </svg>
+          <span class="text-xs">Home</span>
+        </button>
+        <button
+          class="flex-grow flex flex-col items-center py-2 px-4 text-gray-600 hover:text-blue-500 focus:text-blue-500"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 mb-1"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M20 12H4"
+            />
+          </svg>
+          <span class="text-xs">Search</span>
+        </button>
+        <button
+          class="flex-grow flex flex-col items-center py-2 px-4 text-gray-600 hover:text-blue-500 focus:text-blue-500"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 mb-1"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 4v16m8-8H4"
+            />
+          </svg>
+          <span class="text-xs">Add</span>
+        </button>
+        <button
+          class="flex-grow flex flex-col items-center py-2 px-4 text-gray-600 hover:text-blue-500 focus:text-blue-500"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 mb-1"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M5 13l4 4L19 7"
+            />
+          </svg>
+          <span class="text-xs">Profile</span>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

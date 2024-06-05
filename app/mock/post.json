@@ -1,0 +1,26 @@
+[
+  {
+    "id": "0",
+    "username": "@Dohyun",
+    "text": "Welcome to the World Social",
+    "like": "2"
+  },
+  {
+    "id": "1",
+    "username": "@Jaehak",
+    "text": "Good morning, everyone",
+    "like": "0"
+  },
+  {
+    "id": "2",
+    "username": "@Jaewoo",
+    "text": "Have a great day, everyone",
+    "like": "2"
+  },
+  {
+    "id": "3",
+    "username": "@Wonhyuk",
+    "text": "Nice to meet you",
+    "like": "4"
+  }
+]
